@@ -1,6 +1,6 @@
 public class digit 
 {
- public static void main(String... args)
+ public static void main(String args[])
  {
    String str1 = "welcome4s";
    for(int i=0; i<str1.length();i++)
@@ -13,7 +13,7 @@ public class digit
        else
        {
            System.out.println("First character is not a number..!");
-        }
+       }
  
      }
   }
