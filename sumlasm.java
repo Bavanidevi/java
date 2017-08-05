@@ -12,7 +12,6 @@ for(int i=1; i< numb.length; i++)
  else if (numb[i] < small)
  small = numb[i];
  }
- System.out.println("Largest Number is : " + large);
- System.out.println("Smallest Number is : " + small);
- }
+ sum=small+large;
+ System.out.println("Sum of minimal and maximal number is : " + sum);
 }
